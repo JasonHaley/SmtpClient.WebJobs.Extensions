@@ -175,7 +175,7 @@ namespace Smtp.WebJobs.Extensions.Bindings
 
             public Task<object> GetValueAsync()
             {
-                throw new NotImplementedException();
+                return Task.FromResult<object>(_message);
             }
 
             public async Task SetValueAsync(object value, CancellationToken cancellationToken)
