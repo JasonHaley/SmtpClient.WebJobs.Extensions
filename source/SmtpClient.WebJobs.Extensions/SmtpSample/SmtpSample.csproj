@@ -89,6 +89,8 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Config\connections.config" />
+    <None Include="Config\settings.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
@@ -97,8 +99,6 @@
       <Name>Core</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Config\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
