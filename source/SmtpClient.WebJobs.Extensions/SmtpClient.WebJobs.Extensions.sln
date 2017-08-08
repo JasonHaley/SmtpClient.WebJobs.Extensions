@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.14
+VisualStudioVersion = 15.0.26711.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{75D1BF03-BA05-46C2-8AE5-CCC838DBE43B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{25797CEB-2201-47F0-BA9A-2E9A84520AA3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmtpSample", "SmtpSample\SmtpSample.csproj", "{FC0377AF-9A11-41F1-BABF-E76B4F3EE18D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmtpFunctionApp", "SmtpFunctionApp\SmtpFunctionApp.csproj", "{5A11E0E2-6B31-42D9-AC97-FB1767B225C9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,11 +25,19 @@ Global
 		{FC0377AF-9A11-41F1-BABF-E76B4F3EE18D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC0377AF-9A11-41F1-BABF-E76B4F3EE18D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC0377AF-9A11-41F1-BABF-E76B4F3EE18D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A11E0E2-6B31-42D9-AC97-FB1767B225C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A11E0E2-6B31-42D9-AC97-FB1767B225C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A11E0E2-6B31-42D9-AC97-FB1767B225C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A11E0E2-6B31-42D9-AC97-FB1767B225C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{FC0377AF-9A11-41F1-BABF-E76B4F3EE18D} = {25797CEB-2201-47F0-BA9A-2E9A84520AA3}
+		{5A11E0E2-6B31-42D9-AC97-FB1767B225C9} = {25797CEB-2201-47F0-BA9A-2E9A84520AA3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {770E8D2F-FD8C-472D-B52C-970AF468FDE4}
 	EndGlobalSection
 EndGlobal
